@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="deploymentTargetDropDown">
-    <runningDeviceTargetsSelectedWithDialog>
-      <Target>
-        <type value="RUNNING_DEVICE_TARGET" />
-        <deviceKey>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="22b3447812057ece" />
-          </Key>
-        </deviceKey>
-      </Target>
-    </runningDeviceTargetsSelectedWithDialog>
-    <targetsSelectedWithDialog>
-      <Target>
-        <type value="QUICK_BOOT_TARGET" />
-        <deviceKey>
-          <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\GNG\.android\avd\Pixel_2_API_29_2.avd" />
-          </Key>
-        </deviceKey>
-      </Target>
-    </targetsSelectedWithDialog>
+    <value>
+      <entry key="app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="$USER_HOME$/.android/avd/Deepanshu.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-07-05T17:50:46.500161Z" />
+        </State>
+      </entry>
+    </value>
   </component>
 </project>

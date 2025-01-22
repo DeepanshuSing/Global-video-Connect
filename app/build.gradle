@@ -1,19 +1,21 @@
 plugins {
     id 'com.android.application'
+    id("com.google.gms.google-services")
 }
 apply plugin: 'com.google.gms.google-services'
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdk 34
+//    buildToolsVersion '33.0.1'
 
     buildFeatures{
         viewBinding true
+        dataBinding true
     }
 
     defaultConfig {
         applicationId "com.appsians.strangers"
-        minSdkVersion 19
-        targetSdkVersion 30
+        minSdk 23
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -30,9 +32,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'com.appsians.strangers'
 }
 
 dependencies {
+    implementation 'androidx.work:work-runtime:2.9.0'
 
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
@@ -41,11 +45,12 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation platform('com.google.firebase:firebase-bom:28.4.1')
-    implementation 'com.google.firebase:firebase-analytics'
+    implementation(platform("com.google.firebase:firebase-bom:33.1.1"))
+    implementation("com.google.firebase:firebase-analytics")
     implementation 'com.google.firebase:firebase-auth'
     implementation 'com.google.firebase:firebase-database'
-    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+//    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+    implementation("com.google.android.gms:play-services-auth:21.2.0")
 
 
     implementation 'com.airbnb.android:lottie:4.1.0'

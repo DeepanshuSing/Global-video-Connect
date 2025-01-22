@@ -1,44 +1,26 @@
 {
   "project_info": {
-    "project_number": "1016048264402",
-    "project_id": "strangersvideocall",
-    "storage_bucket": "strangersvideocall.appspot.com"
+    "project_number": "1098645202146",
+    "project_id": "strangersvideocall-a2102",
+    "storage_bucket": "strangersvideocall-a2102.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1016048264402:android:2ffe58f94e6a6e0b6a390b",
+        "mobilesdk_app_id": "1:1098645202146:android:dbc3c10abe3c5ce34e6abb",
         "android_client_info": {
           "package_name": "com.appsians.strangers"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "1016048264402-439a9aamtpiajbgqeqg24qkum2bb7fmh.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.appsians.strangers",
-            "certificate_hash": "fd7dfccf9bf407b0e2c8d5471365263982a11c78"
-          }
-        },
-        {
-          "client_id": "1016048264402-4jr9f19giiejoidmkl87ki4gibi54qd7.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDEUIvZ9aw_FXo63E4rpeiZ60Q3VGitLTQ"
+          "current_key": "AIzaSyAX0PyME8gMLwmirfuVN9tiuE8Zw3Um5as"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1016048264402-4jr9f19giiejoidmkl87ki4gibi54qd7.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
