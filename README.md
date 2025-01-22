@@ -58,6 +58,7 @@ This project is licensed under the MIT license. See the [LICENSE](LICENSE) file 
 
 For any questions or inquiries, please reach out to:
 
-Your Name: [questions@mianasad.com]
+Your Name: Deepanshu Singh
 
-Project Link: [GitHub Repository](https://github.com/yourusername/strangers-app)
+
+Project Link: [GitHub Repository](https://github.com/DeepanshSingh/strangers-app)
